@@ -1,0 +1,60 @@
+.cabecera{
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(33, 174, 213);
+    padding: 25px;
+}
+.cabecera:hover{
+    transition: cubic-bezier(0.23, 1, 0.320, 1);
+    background-color: rgb(21, 255, 138);
+}
+.contenedor{
+    display: flex;
+}
+.izquierda{
+    flex: 1;
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40;
+    text-align: center;
+    background-color: rgb(34, 211, 149);
+    padding: 15px;
+}
+.centro{
+    flex: 1;
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40;
+    text-align: center;
+    background-color: rgb(130, 12, 208);
+    padding: 15px;
+}
+.centro1{
+    flex: 1;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    border-color: aqua;
+    
+}
+.derecha{
+    flex: 2;
+    color: rgb(1, 10, 34);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40;
+    text-align: center;
+    background-color: rgb(24, 153, 223);
+    padding: 15px;
+}
+.estilo{
+    font-size: 40px;
+}
+.estilo2{
+    font-size: 30px;
+}
+img{
+    height: 400px;
+    left: 600px;
+}
